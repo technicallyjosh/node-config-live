@@ -1,0 +1,33 @@
+{
+  "name": "config-live",
+  "version": "1.0.0",
+  "description": "Centralized configuration server for node applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG=config-live* nodemon test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technicallyjosh/node-config-live.git"
+  },
+  "keywords": [
+    "config",
+    "central",
+    "node"
+  ],
+  "author": "Josh Newman @technicallyjosh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/technicallyjosh/node-config-live/issues"
+  },
+  "homepage": "https://github.com/technicallyjosh/node-config-live#readme",
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "check-types": "^7.0.0",
+    "co": "^4.6.0",
+    "config": "^1.21.0",
+    "debug": "^2.2.0",
+    "redis": "^2.6.1"
+  }
+}
