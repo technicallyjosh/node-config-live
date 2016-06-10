@@ -8,6 +8,8 @@ Config-live takes away the pain of reloading your NodeJS applications when confi
 
 Right now config-live uses [Redis](http://redis.io) for it's caching of config key/values and pub/sub features. Bringing your own caching and pub/sub is in the works and will be implemented as addons.
 
+Props to Stack Overflow for their NFig package that has inspired this!
+
 **Important things to note:**
 * NodeJS 4+ required
 * No authentication is built in this package yet. e.g. username/password
