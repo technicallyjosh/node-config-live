@@ -2,6 +2,8 @@
 
 Live updating and management of config across your stack in NodeJS.
 
+![build status](https://travis-ci.org/technicallyjosh/node-config-live.svg?branch=master)
+
 # Introduction
 
 Config-live takes away the pain of reloading your NodeJS applications when configurations change. It uses a simple implementation of external caching and pub/sub for updates.
