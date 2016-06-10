@@ -28,9 +28,7 @@ Using the [config](https://github.com/lorenwest/node-config) module.
 ```js
 const config     = require('config'); // if you are using config
 const ConfigLive = require('config-live');
-const configLive = new ConfigLive();
-
-configLive.init('redis', 'localhost', 6379);
+const configLive = new ConfigLive('localhost', 6379);
 
 // config is an object
 configLive.start(config);
