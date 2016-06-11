@@ -32,7 +32,7 @@ describe('initializing', () => {
     });
 });
 
-describe('starting', () => {
+describe('events', () => {
     const host        = 'localhost';
     const port        = 6379;
     const ConfigLive  = require('./lib');
