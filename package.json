@@ -4,7 +4,7 @@
   "description": "Centralized configuration server for node applications.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "./node_modules/.bin/mocha --timeout 5000",
     "start": "DEBUG=config-live* nodemon test"
   },
   "repository": {
@@ -29,5 +29,9 @@
     "config": "^1.21.0",
     "debug": "^2.2.0",
     "redis": "^2.6.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
   }
 }
