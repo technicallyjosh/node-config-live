@@ -4,8 +4,9 @@
   "description": "Centralized configuration server for node applications.",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --timeout 5000",
-    "start": "DEBUG=config-live* nodemon test"
+    "test" : "./node_modules/.bin/mocha --timeout 5000",
+    "lint" : "./node_modules/.bin/eslint .",
+    "start": "DEBUG=config-live* nodemon test",
   },
   "repository": {
     "type": "git",
