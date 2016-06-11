@@ -1,0 +1,8 @@
+test/
+
+test.js
+.travis.yml
+.editorconfig
+.eslintrc
+
+*.log
