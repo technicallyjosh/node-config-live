@@ -1,7 +1,5 @@
 # node-config-live
 
-Live updating and management of config across your stack in NodeJS.
-
 [![Build Status](https://travis-ci.org/technicallyjosh/node-config-live.svg?branch=master)](https://travis-ci.org/technicallyjosh/node-config-live) [![GitHub license](https://img.shields.io/badge/license-ISC-blue.svg)](https://raw.githubusercontent.com/technicallyjosh/node-config-live/master/LICENSE)
 
 # Introduction
