@@ -9,11 +9,7 @@ describe('requiring', () => {
 });
 
 describe('initializing', () => {
-    let ConfigLive;
-
-    beforeEach(() => {
-        ConfigLive = require('./lib');
-    });
+    const ConfigLive = require('./lib');
 
     it('should throw an error when no or invalid host is specified', () => {
         expect(() => new ConfigLive()).to.throw(/Invalid host type. Must be a string\./);
